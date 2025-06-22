@@ -479,8 +479,10 @@ main {
 }
 
 .author-icon-box img {
+  width: 340px; /* or whatever size you prefer */
+  height: 340px;
+  object-fit: cover;
   border-radius: 50%;
-  width: 300px;
 }
 
 .header {
@@ -494,12 +496,12 @@ main {
 
 body.dark .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-    url("assets/purple-gradient-background.jpeg");
+    url("assets/360_F_1298822452_iaY38Vc1yvPF6FB8nn4TeahVk2bSatdD.jpeg");
 }
 
 body.light .header {
   background-image: linear-gradient(#ffffff01, #ffffffe6),
-    url("assets/purple-gradient-background.jpeg");
+    url("assets/765b46a93af2b94ee01fa3fcbc58a659.jpeg");
 }
 
 .header-textbox {
