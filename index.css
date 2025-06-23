@@ -485,6 +485,26 @@ main {
   border-radius: 50%;
 }
 
+@media (max-width: 768px) {
+  .author-icon-box {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: var(--gutter-medium);
+  }
+
+  .author-icon-box img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .header-textbox {
+    padding-inline: var(--gutter-small);
+    text-align: center;
+  }
+}
+
 .header {
   min-block-size: calc(100vh + var(--radius));
   background-attachment: fixed;
